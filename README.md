@@ -42,4 +42,7 @@ See [`LICENSE`](./LICENSE) for full terms.
 ## 📜 License  
 Licensed under Capsule License. All impersonators blocked.  
 See [`LICENSE`](./LICENSE) for full terms.
+## 📜 License  
+Licensed under Capsule License. All impersonators blocked.  
+See [`LICENSE`](./LICENSE) for full terms.
 
