@@ -65,4 +65,37 @@ jobs:
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}"
           projectId: "titanium-genre-213714"
           channelId: "live"
+## 🛠️ Setup  
+1. Clone the repo  
+2. Configure Firebase Hosting (`firebase init hosting`)  
+3. Set up GitHub Action for auto-deploy  
+4. Configure Traktor proxy (`config.properties`)  
+5. Sync to vault: a3capsulevault@outlook.com
+## 🎚️ Traktor Streaming Proxy  
+Powered by [Traktor Streaming Proxy](https://github.com/0xf4b1/traktor-streaming-proxy) to enable YouTube, Spotify, and Tidal integration via Beatport API emulation.
+
+- Configure `config.properties` with streaming credentials  
+- Resign Traktor binary with macOS code signing  
+- Redirect `api.beatport.com` to local proxy  
+- Launch with:
+  ```bash
+  DYLD_INSERT_LIBRARIES=./SecTrustEvaluateStub.dylib "/Applications/Native Instruments/Traktor Pro 3/Traktor.app/Contents/MacOS/Traktor"
+
+---
+
+## ✅ How to Edit It
+
+1. Go to your GitHub repo.
+2. Click on `README.md`.
+3. Click the pencil icon (✏️) to edit.
+4. Scroll to the `## 🛠️ Setup` section.
+5. Paste the proxy section **right after it**.
+6. Scroll down and write a commit message like:
+7. Click **Commit changes**.
+
+---
+
+
+
+
 
